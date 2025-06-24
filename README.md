@@ -254,7 +254,7 @@ You can see the feedback submission form at the top, where users can enter their
 Submitted feedback appears instantly in the dashboard below, which supports filtering by category and sorting by date.
 
 
-![Dashboard Screenshot](frontend/public/home.png)
+![Dashboard Screenshot](Frontend/public/home.png)
 
 
 ---
