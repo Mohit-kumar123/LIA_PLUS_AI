@@ -7,7 +7,7 @@ Users can submit feedback, which is stored securely and displayed in a dashboard
 ### API URLs
 
 - **Local development:** `http://localhost:5000/feedback`
-- **Deployed (production,Frontend):** `https://lia-plus-ai.onrender.com/feedback`
+- **Deployed (production,Frontend):** `https:/lia-plus-ai-1.onrender.com/`
 - **Deployed (Backend Api):** `https://lia-plus-ai.onrender.com/feedback`
 
 The frontend is configured to automatically use the correct API URL depending on whether it is running locally or deployed.
