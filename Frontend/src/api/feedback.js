@@ -3,7 +3,7 @@ import axios from 'axios';
 // Automatically use the deployed API if available, otherwise use localhost
 const API_URL =
   process.env.NODE_ENV === 'production'
-    ? 'https://lia-plus-ai-1.onrender.com/feedback'
+    ? 'https://lia-plus-ai.onrender.com/feedback'
     : 'http://localhost:5000/feedback';
 
 export const submitFeedback = async (data) => {
