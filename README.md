@@ -4,6 +4,13 @@ A full-stack user feedback system built with **React** (frontend), **Node.js/Exp
 Users can submit feedback, which is stored securely and displayed in a dashboard with filtering and sorting options.
 
 ---
+### API URLs
+
+- **Local development:** `http://localhost:5000/feedback`
+- **Deployed (production):** `https://lia-plus-ai-1.onrender.com/feedback`
+
+The frontend is configured to automatically use the correct API URL depending on whether it is running locally or deployed.
+
 
 ## Table of Contents
 
