@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "A full-stack user feedback system built with **React** (frontend), **Node.js/Express** (backend), and **MongoDB** (database).   Users can submit feedback, which is stored securely and displayed in a dashboard with filtering and sorting options.",
+  "main": "index.js",
+  "scripts": {
+    "build":"npm install --prefix Backend && npm install --prefix Frontend && npm run build --prefix Frontend",
+    "start":"npm run start --prefix Backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohit-kumar123/LIA_PLUS_AI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohit-kumar123/LIA_PLUS_AI/issues"
+  },
+  "homepage": "https://github.com/Mohit-kumar123/LIA_PLUS_AI#readme"
+}

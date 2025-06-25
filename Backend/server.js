@@ -1,31 +1,28 @@
 const express = require('express');
-const mongoose=require('mongoose');
-const cors=require('cors');
-
-const feedbackRoutes=require('./routes/feedback');
+const mongoose = require('mongoose');
+const cors = require('cors');
+const path = require('path'); // Use require, not import
+const feedbackRoutes = require('./routes/feedback');
 require('dotenv').config();
 
-const app=express();
+const app = express();
 app.use(cors());
 app.use(express.json());
 
-const PORT= process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 
-
-// Rate limiting middleware
-
-
+// API routes
 app.use('/feedback', feedbackRoutes);
 
-
+// MongoDB connection and server start
 mongoose.connect(process.env.MONGODB_URI)
-.then(()=>{
+  .then(() => {
     console.log('Connected to MongoDB');
-    app.listen(PORT,()=>{
-        console.log(`server is listeneing on port ${PORT}`);
+    app.listen(PORT, () => {
+      console.log(`Server is listening on port ${PORT}`);
     });
-}).catch((err)=>{
+  })
+  .catch((err) => {
     console.log('Error connecting to MongoDB:', err.message);
     process.exit(1);
-})
-
+  });
