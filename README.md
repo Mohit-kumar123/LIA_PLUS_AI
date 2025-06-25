@@ -104,7 +104,7 @@ project/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Mohit-kumar123/LIA_PLUS_AI.git
 cd project
 ```
 
