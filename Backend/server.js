@@ -11,10 +11,10 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
 
-// API routes
+//api
 app.use('/feedback', feedbackRoutes);
 
-// MongoDB connection and server start
+//server
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => {
     console.log('Connected to MongoDB');

@@ -28,8 +28,7 @@ router.post('/',async(req,res)=>{
 });
 
 
-//get all feedback
-//get all feedback with filtering, sorting, and pagination
+//feedback with filter, sorting, and pagination
 router.get('/', async (req, res) => {
     try {
         const { category, email, sortBy = 'createdAt', order = 'desc', page = 1, limit = 10 } = req.query;
