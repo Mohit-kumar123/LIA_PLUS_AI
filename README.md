@@ -6,7 +6,7 @@ Users can submit feedback, which is stored securely and displayed in a dashboard
 ---
 ### API URLs
 
-## while opening the live deployement the back will take atleast of 40s to load the data because of render free deployemnet policy.
+## while opening the live deployement the backend will take atleast of 40s to load the data because of render free deployemnet policy.
 - **Local development:** `http://localhost:5000/feedback`
 - **Deployed (production,Frontend):** `https:/lia-plus-ai-1.onrender.com/`
 - **Deployed (Backend Api):** `https://lia-plus-ai.onrender.com/feedback`
